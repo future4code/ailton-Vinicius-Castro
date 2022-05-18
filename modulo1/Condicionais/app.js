@@ -9,6 +9,8 @@
 // c) Para que tipos de números a mensagem é "Não passou no teste"?
 // numeros não divisiveis por 2 
 
+// -------------------------------------------------------------
+
 // 2.O código abaixo foi feito por uma pessoa desenvolvedora,
 //  contratada para automatizar algumas tarefas de um supermercado:
 
@@ -23,6 +25,8 @@
 //  (o `break` indicado pelo comentário "BREAK PARA O ITEM c.")?
 // O preço da fruta  Pêra  é  R$  5
 
+// ---------------------------------------------------------------
+
 // 3. Leia o código abaixo:
 // a) O que a primeira linha está fazendo?
 // Esta declarando a variavel numero, que solicitara ao usuario que digite o primeiro numero
@@ -34,31 +38,62 @@
 // c) Haverá algum erro no console? Justifique usando os conceitos de bloco ou escopo.
 // Sim tem o erro pois tem um erro extrutural
 
-
+// ------------------------------------------------------------------
 
 //  Exercícios de escrita de código
 
-// 1. 
+// 1.  Concluido
 
-// a.
-// const idade = prompt("digite a sua idade")
+// let idade = prompt("digite a sua idade")
+// // let idade2 = 18
 // if (idade >= 18) {
 // console.log ("Você pode dirigir!")
-// else if {
-//     console.log("Você não pode dirigir")
+// }
+// else if (idade <=17) {
+// console.log("Você não pode dirigir")
+
+// }
+// ---------------------------------------------------------
+// 2. Concluido
+
+// const turnoDoDia = prompt("M = matutino, V = Vespertino ou N = Noturno") 
+
+
+// if (turnoDoDia == "M"){
+//      console.log("Bom Dia")
+//  }
+//  else if (turnoDoDia == "V"){
+//      console.log("Boa Tarde")
+//  }
+//  else {
+//      console.log("Boa noite") 
 // }
 
- 
-// b
+//----------------------------------------------------------
 
-// 4. 
-const turnoDoDia = prompt("M = matutino, V = Vespertino ou N = Noturno") 
-if (turnoDoDia === "M" || "m"){
-    console.log("Bom Dia")
-}
-else if (turnoDoDia === "V" || "v"){
-    console.log("Boa Tarde")
-}
-else {
-    console.log("Boa noite") 
-}
+// 3.
+// let turnoDoDia = prompt("Digite aqui o turno de trabalho, M = matutino, V = Vespertino ou N = Noturno")
+// switch(turnoDoDia){
+//     case'M':
+//     console.log('Matutino');
+//     break;
+//     case'V':
+//     console.log('Vespertino');
+//     break;
+//     case'N':
+//     console.log('Noturno');
+//     break;
+//     default:
+//     console.log('Turno não cadastrado!');
+// }
+     
+//----------------------------------------------------------
+
+// 4.
+
+
+
+
+//----------------------------------------------------------
+//----------------------------------------------------------
+//----------------------------------------------------------
