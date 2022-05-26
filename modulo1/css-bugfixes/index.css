@@ -50,7 +50,7 @@ div img {
     background-color: #c44f00;
 }
 /* 2 - [Tela Home] Botão  "Comprar" está no lugar errado */
-.botao-amarelo{
+.botao-amarelo{ 
     position: relative;
     top: 50px;
     right: 250px;
