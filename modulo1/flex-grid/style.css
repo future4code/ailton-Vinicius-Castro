@@ -28,8 +28,8 @@ box-sizing: border-box;
     align-items:initial ;
 }
 
-.barra {
-    background-color: #f2d0e0;
+/* .barra {
+    background-color:bisque;
     height: 100%;
     text-decoration: none;
     position: fixed;
@@ -45,7 +45,18 @@ text-decoration: none;
 
 .img{
 width: 1.5%;
+} */
+
+  /* Menu */
+#menu{
+    /* margin-top: px; */
+    /* padding: 10px; */
+    width: 90%;
+    background: #f2d0e0;
+    max-width: 300px;
+    max-height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0; 
 }
-
-
-
+  
