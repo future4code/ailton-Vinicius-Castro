@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2a95a062.chunk.css",
+    "main.js": "/static/js/main.7fb59210.chunk.js",
+    "main.js.map": "/static/js/main.7fb59210.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6b07746c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6b07746c.js.map",
+    "static/js/2.3f5eebf5.chunk.js": "/static/js/2.3f5eebf5.chunk.js",
+    "static/js/2.3f5eebf5.chunk.js.map": "/static/js/2.3f5eebf5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6700fba02b1fe902ce76da1d0ff74259.js": "/precache-manifest.6700fba02b1fe902ce76da1d0ff74259.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.2a95a062.chunk.css.map": "/static/css/main.2a95a062.chunk.css.map",
+    "static/js/2.3f5eebf5.chunk.js.LICENSE.txt": "/static/js/2.3f5eebf5.chunk.js.LICENSE.txt",
+    "static/media/carrefour.png": "/static/media/carrefour.88a364e0.png",
+    "static/media/seta.png": "/static/media/seta.092041c7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b07746c.js",
+    "static/js/2.3f5eebf5.chunk.js",
+    "static/css/main.2a95a062.chunk.css",
+    "static/js/main.7fb59210.chunk.js"
+  ]
+}
