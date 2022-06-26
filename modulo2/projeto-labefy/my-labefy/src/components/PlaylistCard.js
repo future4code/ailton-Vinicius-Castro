@@ -1,23 +1,28 @@
 import React from "react";
 import styled from "styled-components";
 
-const PlaylistCardContainer =styled.div`
+const PlaylistCardContainer = styled.div`
+    margin: 20px;
+    display: flex;
+    align-items: center;
 `
 
-const BotaoApagar = styled.p`
+const NameContainer = styled.p`
+    margin: 10px;
 `
 
-const NomeContainer = styled.p`
+const DeleteButton = styled.p`
+    color: red;
 `
 
 const PlaylistCard = (props) => {
-return (
-    <PlaylistCardContainer>
-        <button onClick={() => props.changePage("DetalhesDaPlaylist" , props.playlistId)}>Ir Para Playlist</button>
-        <NomeContainer>{props.nome}</NomeContainer>
-        <BotaoApagar onClick={() => props.apagarPlaylist(props.playlistId)}>Apagar</BotaoApagar>
-    </PlaylistCardContainer>
-)
+    return (
+        <PlaylistCardContainer>
+            <button onClick={() => props.changePage("playlistDetail", props.playlistId)}>Abrir playlist</button>
+            <NameContainer>{props.name}</NameContainer>
+            <DeleteButton onClick={() => props.deletePlaylist(props.playlistId)} >X</DeleteButton>
+        </PlaylistCardContainer>
+    )
 }
 
 export default PlaylistCard

@@ -1,34 +1,33 @@
 import React from "react";
 import styled from "styled-components";
 
-const HeadContainder = styled.div`
-height: 120px;
-display: flex;
-align-items: center;
-justify-content: space-around;
-`
+const HeaderContainer = styled.div`
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+`;
 
-
-const BotoesContainer = styled.div`
-width: 350px;
-display: flex;
-justify-content: space-between;
-
-
-`
+const ButtonsContainer = styled.div`
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+`;
 
 const Header = (props) => {
-    return (
-    
-    <HeadContainder>
-        <h1>Labefy</h1>
-        <BotoesContainer>
-            <button onClick={() => props.changePage("pagidaDeCriacaoDePlaylists")}> Cadastrar Playlist</button>
-            <button onClick={() => props.changePage("pagidaDoGerenciadorDePlaylists")}> Gerenciador de Playlist</button>
-        </BotoesContainer>
-    </HeadContainder>
-    )
-} 
+  return (
+    <HeaderContainer>
+      <h1>Labefy</h1>
+      <ButtonsContainer>
+        <button onClick={() => props.changePage("playlistCreationPage")}>
+          Cadastrar Playlist
+        </button>
+        <button onClick={() => props.changePage("playlistManagerPage")}>
+          Gerenciar Playlists
+        </button>
+      </ButtonsContainer>
+    </HeaderContainer>
+  );
+};
 
-export default Header
- 
+export default Header;

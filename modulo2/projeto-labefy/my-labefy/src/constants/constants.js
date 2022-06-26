@@ -2,6 +2,6 @@ export const baseUrl = "https://us-central1-labenu-apis.cloudfunctions.net/labef
 
 export const axiosConfig = {
     headers: {
-        Authorization: "vinicius-castro-ailton"
+        Authorization: "pedro-severo"
     }
 };
