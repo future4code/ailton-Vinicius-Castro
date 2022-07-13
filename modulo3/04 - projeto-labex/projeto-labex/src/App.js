@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import AdminHomePage from "./pages/AdminHomePage";
+import ApplicationFormPage from "./pages/ApplicationFormPage";
+import CreateTripPage from "./pages/CreateTripPage";
+import HomePage from "./pages/HomePage";
+import LoginPage from "./pages/LoginPage";
+import TripDetailPage from "./pages/TripDetailsPage";
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>     
+        <Switch>
+          <Route path="/criar/viagem">
+            <CreateTripPage/>
+          </Route>
+          <Route path="/viagens/detalhe/">
+            <TripDetailPage/>
+          </Route>
+          <Route path="/viagens/criar/">
+            <CreateTripPage/>
+          </Route>
+          <Route path="/inscricao">
+            <ApplicationFormPage/>
+          </Route>
+          <Route path="/login">
+            <LoginPage/>
+          </Route>
+          <Route path="/admin">
+            <AdminHomePage/>
+          </Route>
+          <Route path="/">
+            <HomePage/>
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
