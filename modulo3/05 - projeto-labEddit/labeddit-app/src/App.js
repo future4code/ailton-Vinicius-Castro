@@ -1,15 +1,14 @@
 import React from "react";
-// import FeedPage from "./pages/FeedPage"
-// import LoginPage from "./pages/LoginPage"
-// import RegistrationPage from "./pages/RegistrationPage/RegistrationPage";
-// import PostPage from "./pages/PostPage/PostPage";
-import Routes from "./routes/Routes";
+import theme from "./constants/theme";
+import { ThemeProvider } from "@material-ui/core/styles";
+import { Router } from "./routes/Router";
+
 const App = () => {
   return (
-    <div>
-     <Routes/>
-    </div> 
-  )
-}
+    <ThemeProvider theme={theme}>
+      <Router />
+    </ThemeProvider>
+  );
+};
 
 export default App;
