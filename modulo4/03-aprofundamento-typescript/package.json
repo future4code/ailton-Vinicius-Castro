@@ -1,0 +1,17 @@
+{
+  "name": "aprodundamentotypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ex01": "tsc && node ./build/ex01.js",
+    "ex02": "tsc && node ./build/ex02.js",
+    "ex03": "tsc && node ./build/ex03.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.4.4"
+  }
+}
